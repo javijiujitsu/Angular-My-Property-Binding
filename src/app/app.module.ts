@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MyPropertyBindingComponent } from './my-property-binding/my-property-binding.component';
 import { MyEventBindingComponent } from './my-event-binding/my-event-binding.component';
+import { MyMixedBindingComponent } from './my-mixed-binding/my-mixed-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyPropertyBindingComponent,
-    MyEventBindingComponent
+    MyEventBindingComponent,
+    MyMixedBindingComponent
   ],
   imports: [
     BrowserModule
