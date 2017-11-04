@@ -1,5 +1,7 @@
 <h2>
- Enter a Keystroke 
+ Enter a Keystroke
 </h2>
 
 <input (keyup)="recordAllTheKeyStrokes($event)">
+<input #myInput (keyup)="0">
+<p> {{ myInput.value }} </p>

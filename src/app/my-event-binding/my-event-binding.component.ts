@@ -10,6 +10,9 @@ export class MyEventBindingComponent implements OnInit {
           console.log(`Key inserted: ${event.key}`);
           //console.log(`Input value: ${event.currentTarget.value}`);
       }
+      onKey(value) {
+        console.log(`Input value: ${value}`);
+    }
   constructor() { }
 
   ngOnInit() {
