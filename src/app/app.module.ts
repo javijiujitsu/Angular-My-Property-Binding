@@ -9,6 +9,7 @@ import { MyPropertyBindingComponent } from './my-property-binding/my-property-bi
 import { MyEventBindingComponent } from './my-event-binding/my-event-binding.component';
 import { MyMixedBindingComponent } from './my-mixed-binding/my-mixed-binding.component';
 import { MyTwoWayBindingComponent } from './my-two-way-binding/my-two-way-binding.component';
+import { MyDynamicImagebindingComponent } from './my-dynamic-imagebinding/my-dynamic-imagebinding.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MyTwoWayBindingComponent } from './my-two-way-binding/my-two-way-bindin
     MyPropertyBindingComponent,
     MyEventBindingComponent,
     MyMixedBindingComponent,
-    MyTwoWayBindingComponent
+    MyTwoWayBindingComponent,
+    MyDynamicImagebindingComponent
   ],
   imports: [
     BrowserModule,
